@@ -2,11 +2,11 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
     <title>Practical-9</title>
   
     <style>
-      /* Reset all Margins & Padding */
+      
       * {
         padding: 0;
         margin: 0;
@@ -14,11 +14,7 @@
         font-family: Arial, Helvetica, sans-serif;
       }
   
-      /* 
-        --Resolve Position Fixed Issue-- 
-                        & 
-          ----------Smooth Scroll ------ 
-        */
+      
   
       html {
         scroll-padding-top: 70px;
@@ -31,7 +27,7 @@
         margin: auto;
       }
   
-      /* ------Header Container-------- */
+      
   
       #header {
         background-color: grey;
@@ -42,8 +38,7 @@
         top: 0;
         height: 70px;
       }
-  
-      /* Navigation Menu  */
+
       .menu {
         list-style: none;
         float: right;
@@ -81,7 +76,6 @@
         padding-right: 20px;
       }
   
-      /* ------------------Banner ------------- */
   
       #banner {
         width: 100%;
@@ -104,14 +98,14 @@
         color: #fff;
       }
   
-      /* ------- Team Members ----- */
+ 
   
-      #circle-container {
+      #Circle-Container {
         width: 100%;
         margin: 15px auto;
       }
   
-      #circle-container::after {
+      #Circle-Container::after {
         content: '';
         display: block;
         clear: both;
@@ -130,8 +124,8 @@
         font-size: 30px;
       }
   
-      /* -------------About Us-------------- */
-      #sec2-container::after {
+      
+      #Section-Container::after {
         content: '';
         display: block;
         clear: both;
@@ -193,13 +187,13 @@
         background-repeat: no-repeat;
       }
   
-      /* --------- Technologies Used------------ */
-      #grid-container {
+  
+      #Grid-Container {
         width: 100%;
         margin: 15px auto;
       }
   
-      #grid-container::after {
+      #Grid-Container::after {
         content: '';
         display: block;
         clear: both;
@@ -254,7 +248,7 @@
         background-color: blue;
       }
   
-      /* -------Footer Section ------- */
+  
       #footer {
         background-color: plum;
         height: 100px;
@@ -268,9 +262,9 @@
       }
   
       /* 1. First Break-point */
-      /* 801px - 1199px */
+     
   
-      @media (min-width: 801px) and (max-width: 1199px) {
+      @media (min-width: 802px) and (max-width: 1198px) {
         .menu {
           list-style: none;
           float: right;
@@ -315,7 +309,7 @@
           padding-right: 20px;
         }
   
-        /* ------Header Container-------- */
+ 
   
         #header {
           width: 100%;
@@ -325,7 +319,7 @@
           height: 70px;
         }
   
-        /* ------------------Banner ------------- */
+        
   
         #banner {
           width: 100%;
@@ -347,14 +341,13 @@
           margin: 20px 20px;
           color: #fff;
         }
+
   
-        /* ------- Team Members ----- */
-  
-        #circle-container {
+        #Circle-Container {
           width: 100%;
         }
   
-        #circle-container::after {
+        #Circle-Container::after {
           content: '';
           display: block;
           clear: both;
@@ -370,9 +363,9 @@
           margin-bottom: 20px;
         }
   
-        /* -------------About Us-------------- */
+      
   
-        #sec2-container::after {
+        #Section-Container::after {
           content: '';
           display: block;
           clear: both;
@@ -434,13 +427,13 @@
         background-repeat: no-repeat;
       }
   
-        /* --------- Technologies Used------------ */
-        #grid-container {
+  
+        #Grid-Container {
           width: 100%;
           margin: 15px auto;
         }
   
-        #grid-container::after {
+        #Grid-Container::after {
           content: '';
           display: block;
           clear: both;
@@ -497,7 +490,7 @@
           background-color: blue;
         }
   
-        /* -------Footer Section ------- */
+        
         #footer {
           background-color: plum;
           height: 100px;
@@ -513,7 +506,7 @@
   
       /* 2. Second Break-point */
   
-      @media (max-width: 800px) {
+      @media (max-width: 801px) {
         #header {
           width: 100%;
           background-color: grey;
@@ -572,11 +565,11 @@
           color: #fff;
         }
   
-        #circle-container {
+        #Circle-Container {
           width: 100%;
         }
   
-        #circle-container::after {
+        #Circle-Container::after {
           content: '';
           display: block;
           clear: both;
@@ -646,12 +639,12 @@
         background-repeat: no-repeat;
       }
   
-        #grid-container {
+        #Grid-Container {
           width: 100%;
           margin: 15px auto;
         }
   
-        #grid-container::after {
+        #Grid-Container::after {
           content: '';
           display: block;
           clear: both;
@@ -705,11 +698,11 @@
   
         /* 3. Third Break-point */
   
-        @media (max-width: 625px) {
-          /* Set container to min-width of 320px */
+        @media (max-width: 626px) {
+          
   
           #container {
-            min-width: 320px;
+            min-width: 322px;
           }
   
           .show-btn {
@@ -761,7 +754,7 @@
             font-size: 20px;
           }
   
-          #circle-container {
+          #Circle-Container {
             width: 90%;
             margin-left: 10%;
           }
@@ -829,7 +822,7 @@
         background-repeat: no-repeat;
       }
   
-          #grid-container {
+          #Grid-Container {
             width: 100%;
             box-sizing: border-box;
           }
@@ -884,7 +877,7 @@
         }
       }
     </style>
-  <script>(function(){class RuffleMimeType{constructor(a,b,c){this.type=a,this.description=b,this.suffixes=c}}class RuffleMimeTypeArray{constructor(a){this.__mimetypes=[],this.__named_mimetypes={};for(let b of a)this.install(b)}install(a){let b=this.__mimetypes.length;this.__mimetypes.push(a),this.__named_mimetypes[a.type]=a,this[a.type]=a,this[b]=a}item(a){return this.__mimetypes[a]}namedItem(a){return this.__named_mimetypes[a]}get length(){return this.__mimetypes.length}}class RufflePlugin extends RuffleMimeTypeArray{constructor(a,b,c,d){super(d),this.name=a,this.description=b,this.filename=c}install(a){a.enabledPlugin||(a.enabledPlugin=this),super.install(a)}}class RufflePluginArray{constructor(a){this.__plugins=[],this.__named_plugins={};for(let b of a)this.install(b)}install(a){let b=this.__plugins.length;this.__plugins.push(a),this.__named_plugins[a.name]=a,this[a.name]=a,this[b]=a}item(a){return this.__plugins[a]}namedItem(a){return this.__named_plugins[a]}get length(){return this.__plugins.length}}const FLASH_PLUGIN=new RufflePlugin("Shockwave Flash","Shockwave Flash 32.0 r0","ruffle.js",[new RuffleMimeType("application/futuresplash","Shockwave Flash","spl"),new RuffleMimeType("application/x-shockwave-flash","Shockwave Flash","swf"),new RuffleMimeType("application/x-shockwave-flash2-preview","Shockwave Flash","swf"),new RuffleMimeType("application/vnd.adobe.flash-movie","Shockwave Flash","swf")]);function install_plugin(a){navigator.plugins.install||Object.defineProperty(navigator,"plugins",{value:new RufflePluginArray(navigator.plugins),writable:!1}),navigator.plugins.install(a),0<a.length&&!navigator.mimeTypes.install&&Object.defineProperty(navigator,"mimeTypes",{value:new RuffleMimeTypeArray(navigator.mimeTypes),writable:!1});for(var b=0;b<a.length;b+=1)navigator.mimeTypes.install(a[b])}install_plugin(FLASH_PLUGIN);})();</script><script src="chrome-extension://bcmgplkkkknnbkgbfeniabibibplbikb/dist/ruffle.js?uniqueMessageSuffix=5913732438"></script></head>
+ </head>
   
   <body>
     <div id="container">
@@ -910,7 +903,7 @@
       <div id="banner">
         <h2>PRACTICAL - 9</h2>
       </div>
-      <div id="circle-container">
+      <div id="Circle-Container">
         <h1>Team Members</h1>
         <div class="circle">
           <img src="https://e7u8r8u2.rocketcdn.me/wp-content/uploads/2018/03/team-member-2.jpg" alt="">
@@ -925,7 +918,7 @@
           <img src="https://e7u8r8u2.rocketcdn.me/wp-content/uploads/2018/03/team-member-1.jpg" alt="">
         </div>
       </div>
-      <div id="sec2-container">
+      <div id="Section-Container">
         <a name="about"></a>
         <h1>About Us</h1>
         <div id="left-side">
@@ -955,7 +948,7 @@ Finally, a project must be progressively elaborated. This means that the project
           </div>
         </div>
       </div>
-      <div id="grid-container">
+      <div id="Grid-Container">
         <a name="Technologies"></a>
         <h1>Technologies Used</h1>
         <div class="grid">
