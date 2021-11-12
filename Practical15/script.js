@@ -38,7 +38,7 @@ function checkInputs() {
 	}
 	
 	if(password2Value === '') {
-		setErrorFor(password2, 'Password2 cannot be blank');
+		setErrorFor(password2, 'Password cannot be blank');
 	} else if(passwordValue !== password2Value) {
 		setErrorFor(password2, 'Passwords does not match');
 	} else{
@@ -59,7 +59,7 @@ function setSuccessFor(input) {
 }
 	
 function isEmail(email) {
-	return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+	return (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email));
 }
 
 
